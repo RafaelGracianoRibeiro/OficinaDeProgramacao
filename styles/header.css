@@ -1,0 +1,43 @@
+header{
+    border-bottom: 2px solid #f1b1ad;
+    width: 100%;
+    font-family: 'Montserrat';
+    background-color: var(--background-color);
+    position: fixed;
+    z-index: 10000;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 24px;
+}
+
+#logo img{
+    max-width: 300px;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+}
+
+#menu-item{
+    margin-right: 32px;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+#menu-item a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+#menu-item:hover{
+    transition: 450ms;
+    background-color: rgba(65, 65, 65, 0.247);
+}

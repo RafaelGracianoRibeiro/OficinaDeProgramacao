@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+:root{
+    --background-color:#f4f4f1;
+    --text-color:#828284;
+
+    --font-family:'Montserrat';
+    --text-lg:bold 32px/125% var(--font-family);
+    --text-md: 14/175% var(var(--font-family));
+    --text-sm: 12/175% var(var(--font-family));
+    --text: 16px/1.5 var(--font-family);
+}   
+
+body{
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+main{
+    padding-top: 100px;
+}
