@@ -2,20 +2,20 @@ header{
     border-bottom: 2px solid #f1b1ad;
     width: 100%;
     font-family: 'Montserrat';
-    background-color: var(--background-color);
     position: fixed;
     z-index: 10000;
+    background-color: #f4f4f1;
 }
 
 header nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 18px 24px;
+    padding: 12px;
 }
 
 #logo img{
-    max-width: 300px;
+    max-width: 350px;
 }
 
 #menu{
@@ -35,9 +35,10 @@ header nav{
     text-decoration: none;
     text-transform: uppercase;
     color: var(--text);
+    font-family:'Montserrat';
 }
 
 #menu-item:hover{
     transition: 450ms;
-    background-color: rgba(65, 65, 65, 0.247);
+    background-color: rgba(65, 65, 65, 0.11);
 }

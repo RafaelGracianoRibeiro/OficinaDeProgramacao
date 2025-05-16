@@ -1,9 +1,10 @@
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.61)), url(https://img.freepik.com/fotos-gratis/close-up-de-maos-tricotando-com-agulhas_23-2148859249.jpg?t=st=1744137959~exp=1744141559~hmac=fd8d42d2fea54cdca887f2bb532ef71ab43e41072dc7a1513ba2a72dc946a0cd&w=1380);
+    background: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.61)), url(../images/tricotando.jpg);
     background-size: cover;
     position: relative;
     padding: 60px 30px 10px;
     text-align: center;
+    padding-top: 180px;
 }
 
 
@@ -13,16 +14,17 @@
     color: white;
 }
 
-.hero h1 {
-    font-family:'Montserrat';
+.hero-container h1 {
     font-size: 3rem;
     margin-bottom: 20px;
     font-weight: 700;
     line-height: 1.2;
+    font-family: var(--font-main);
+    color: white;
 }
 
-.hero p {
-    font-family:'Montserrat';
+.hero-container p {
+    font-family: var(--font-main);
     font-size: 1.2rem;
     max-width: 700px;
     margin: 0 auto 30px;
