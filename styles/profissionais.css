@@ -73,6 +73,14 @@
     color: var(--primary-color);
 }
 
+.wpp-card{
+    text-align: end;
+}
+
+.wpp-card i{
+    font-size: 32px;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
